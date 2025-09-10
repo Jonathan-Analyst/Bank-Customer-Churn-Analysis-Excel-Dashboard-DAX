@@ -21,8 +21,8 @@ This project analyzes customer churn for a retail bank using **Excel dashboards*
 - How does churn vary by tenure, satisfaction score, and number of products?
 - Do churned customers differ in terms of balance and credit score?
 - What role do customer complaints play in churn?
-  ## DAX Functions
-  **Core Measures**
+## DAX Functions
+**Core Measures**
   DAX
 Total Customer = COUNTROWS('Customer_Churn_Records_26')
 
