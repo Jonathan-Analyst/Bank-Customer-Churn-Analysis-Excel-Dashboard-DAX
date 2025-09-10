@@ -8,7 +8,7 @@ This project analyzes customer churn for a retail bank using **Excel dashboards*
 - Compare customer balances and tenure between churned and retained customers.
 - Provide actionable insights to reduce churn.
 ## Dataset Used
-- <a href="https://github.com/Jonathan-Analyst/Bank-Customer-Churn-Analysis-Excel-Dashboard-DAX/blob/main/bank%20churn.xlsx">Dataset</a>
+- <a href="https://github.com/Jonathan-Analyst/Bank-Customer-Churn-Analysis/blob/main/bank%20churn.xlsx">Dataset</a>
 ## Project Process
 - Data Cleaning and Preparation in Excel.
 - Data Modeling with customer churn records.
@@ -21,8 +21,8 @@ This project analyzes customer churn for a retail bank using **Excel dashboards*
 - How does churn vary by tenure, satisfaction score, and number of products?
 - Do churned customers differ in terms of balance and credit score?
 - What role do customer complaints play in churn?
-- <a href="https://github.com/Jonathan-Analyst/Bank-Customer-Churn-Analysis-Excel-Dashboard-DAX/blob/main/picture1.png">Dashboard 1<a/>
-<a href="https://github.com/Jonathan-Analyst/Bank-Customer-Churn-Analysis-Excel-Dashboard-DAX/blob/main/Picture2.png">Dashboard 2<a/>
+- <a href="https://github.com/Jonathan-Analyst/Bank-Customer-Churn-Analysis/blob/main/picture1.png">Dashboard 1<a/>
+<a href="https://github.com/Jonathan-Analyst/Bank-Customer-Churn-Analysis/blob/main/Picture2.png">Dashboard 2<a/>
 ## DAX Functions
 ## Core Measures
 ```DAX
@@ -103,9 +103,9 @@ CALCULATE (
 - **By Complaints**: 99.5% of complaining customers churned, indicating service gaps.
 ## Dashboards
   
-[![Dashboard 1](https://github.com/Jonathan-Analyst/Bank-Customer-Churn-Analysis-Excel-Dashboard-DAX/blob/main/picture1.png)](https://github.com/Jonathan-Analyst/Bank-Customer-Churn-Analysis-Excel-Dashboard-DAX/blob/main/picture1.png)
+[![Dashboard 1](https://github.com/Jonathan-Analyst/Bank-Customer-Churn-Analysis/blob/main/picture1.png)](https://github.com/Jonathan-Analyst/Bank-Customer-Churn-Analysis/blob/main/picture1.png)
  
-[![Dashboard 2](https://github.com/Jonathan-Analyst/Bank-Customer-Churn-Analysis-Excel-Dashboard-DAX/blob/main/Picture2.png)](https://github.com/Jonathan-Analyst/Bank-Customer-Churn-Analysis-Excel-Dashboard-DAX/blob/main/Picture2.png)
+[![Dashboard 2](https://github.com/Jonathan-Analyst/Bank-Customer-Churn-Analysis/blob/main/Picture2.png)](https://github.com/Jonathan-Analyst/Bank-Customer-Churn-Analysis/blob/main/Picture2.png)
 
 ### Final Conclusion
 This analysis highlights that churn is influenced by geography, gender, satisfaction, and complaints more than tenure or card type. Key recommendations include:
