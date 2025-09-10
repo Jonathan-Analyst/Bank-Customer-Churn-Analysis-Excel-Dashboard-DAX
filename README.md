@@ -74,6 +74,9 @@ CALCULATE (
     'Customer_Churn_Records_26'[Exited(Customer)] = "Yes"
 )
 
+ ## Dashboard 1
+
+
 
 
 
