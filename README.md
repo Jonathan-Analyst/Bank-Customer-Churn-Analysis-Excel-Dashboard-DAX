@@ -22,7 +22,8 @@ This project analyzes customer churn for a retail bank using **Excel dashboards*
 - Do churned customers differ in terms of balance and credit score?
 - What role do customer complaints play in churn?
 ## DAX Functions
-## Dashboard 1
+## Dashboards
+</a href="https://github.com/Jonathan-Analyst/Bank-Customer-Churn-Analysis-Excel-Dashboard-DAX/blob/main/picture1.png">Dashboard 1<a/>
 
 
 
