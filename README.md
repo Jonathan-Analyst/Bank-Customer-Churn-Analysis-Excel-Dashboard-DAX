@@ -22,58 +22,7 @@ This project analyzes customer churn for a retail bank using **Excel dashboards*
 - Do churned customers differ in terms of balance and credit score?
 - What role do customer complaints play in churn?
 ## DAX Functions
-**Core Measures**
-  DAX
-Total Customer = COUNTROWS('Customer_Churn_Records_26')
-
-Churned Customers = 
-CALCULATE (
-    [Total Customer],
-    'Customer_Churn_Records_26'[Exited] = 1
-)
-
-Retained Customers = 
-CALCULATE (
-    [Total Customer],
-    'Customer_Churn_Records_26'[Exited] = 0
-)
-**Rates**
-DAX
-Churn Rate = DIVIDE([Churned Customers], [Total Customer], 0)
-
-Retention Rate = DIVIDE([Retained Customers], [Total Customer], 0)
-```
-**Customer Attributes**
-  DAX
-Avg Age = AVERAGE('Customer_Churn_Records_26'[Age])
-
-Avg Tenure = AVERAGE('Customer_Churn_Records_26'[Tenure])
-
-Avg Satisfaction = AVERAGE('Customer_Churn_Records_26'[Satisfaction Score])
-
-**Balance Analysis**
-  DAX
-Avg Balance (Retained) = 
-CALCULATE (
-    AVERAGE('Customer_Churn_Records_26'[Balance]),
-    'Customer_Churn_Records_26'[Exited] = 0
-)
-
-Avg Balance (Churned) = 
-CALCULATE (
-    AVERAGE('Customer_Churn_Records_26'[Balance]),
-    'Customer_Churn_Records_26'[Exited] = 1
-)
-
-**Alternative Measure (if Exited = "Yes"/"No")**
-  DAX
-Churn Customers = 
-CALCULATE (
-    [Total Customer],
-    'Customer_Churn_Records_26'[Exited(Customer)] = "Yes"
-)
- 
-
+## Dashboard 1
 
 
 
