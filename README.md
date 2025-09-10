@@ -77,6 +77,8 @@ CALCULATE (
 ## Dashboard Screenshots
 Below are the dashboards built in Excel for this project:
 ## Dashboard 1
+<a/ href="https://github.com/Jonathan-Analyst/Bank-Customer-Churn-Analysis-Excel-Dashboard-DAX/blob/main/picture1.png">Dashboard1</a>
+## Dashboard 2
 
 
 
