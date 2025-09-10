@@ -23,7 +23,8 @@ This project analyzes customer churn for a retail bank using **Excel dashboards*
 - What role do customer complaints play in churn?
 ## DAX Functions
 ## Dashboards
-</a href="https://github.com/Jonathan-Analyst/Bank-Customer-Churn-Analysis-Excel-Dashboard-DAX/blob/main/picture1.png">Dashboard 1<a/>
+<a href="https://github.com/Jonathan-Analyst/Bank-Customer-Churn-Analysis-Excel-Dashboard-DAX/blob/main/picture1.png">Dashboard 1<a/>
+<a href="https://github.com/Jonathan-Analyst/Bank-Customer-Churn-Analysis-Excel-Dashboard-DAX/blob/main/Picture2.png">Dashboard 2<a/>
 
 
 
