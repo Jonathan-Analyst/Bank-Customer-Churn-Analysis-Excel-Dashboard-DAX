@@ -8,3 +8,4 @@ This project analyzes customer churn for a retail bank using **Excel dashboards*
 - Compare customer balances and tenure between churned and retained customers.
 - Provide actionable insights to reduce churn.
 ## Dataset Used
+- <a href="https://github.com/Jonathan-Analyst/Bank-Customer-Churn-Analysis-Excel-Dashboard-DAX/blob/main/bank%20churn.xlsx">Dataset</a>
