@@ -1,0 +1,2 @@
+# Bank-Customer-Churn-Analysis-Excel-Dashboard-DAX
+This project explores customer churn for a retail bank using Excel dashboards enriched with DAX calculations. It provides a structured approach to  Identify drivers of churn.  Segment customers by demographics, tenure, geography, products, and satisfaction.  Visualize patterns through dashboards.  Deliver actionable recommendations to reduce churn.
