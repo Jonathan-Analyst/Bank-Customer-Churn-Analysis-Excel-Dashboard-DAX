@@ -39,6 +39,13 @@ This project analyzes customer churn for a retail bank using **Excel dashboards*
  
 [![Dashboard 2](https://github.com/Jonathan-Analyst/Bank-Customer-Churn-Analysis-Excel-Dashboard-DAX/blob/main/Picture2.png)](https://github.com/Jonathan-Analyst/Bank-Customer-Churn-Analysis-Excel-Dashboard-DAX/blob/main/Picture2.png)
 
+### Final Conclusion
+This analysis highlights that churn is influenced by geography, gender, satisfaction, and complaints more than tenure or card type. Key recommendations include:
+- Addressing service gaps in Germany.
+- Improving customer complaint resolution.
+- Targeted retention programs for high-value, dissatisfied customers.
+- Monitoring satisfaction closely as a leading churn indicator.
+
 
 
 
