@@ -24,6 +24,15 @@ This project analyzes customer churn for a retail bank using **Excel dashboards*
 - <a href="https://github.com/Jonathan-Analyst/Bank-Customer-Churn-Analysis-Excel-Dashboard-DAX/blob/main/picture1.png">Dashboard 1<a/>
 <a href="https://github.com/Jonathan-Analyst/Bank-Customer-Churn-Analysis-Excel-Dashboard-DAX/blob/main/Picture2.png">Dashboard 2<a/>
 ## DAX Functions
+### Insights
+- **Churn Rate**: 20.4% overall.
+- **By Credit Score**: Lower scores correspond to higher churn.
+- **By Geography**: Germany shows the highest churn (32.4%), suggesting a localized issue.
+- **By Gender**: Females churn more (25.1%) than males (16.5%).
+- **By Tenure**: Tenure does not significantly reduce churn risk.
+- **By Bank Balance**: Churned customers hold higher average balances ($91.1K vs. $72.7K).
+- **By Satisfaction**: Customers with satisfaction level 2 churn most frequently.
+- **By Complaints**: 99.5% of complaining customers churned, indicating service gaps.
 ## Dashboards
   
 [![Dashboard 1](https://github.com/Jonathan-Analyst/Bank-Customer-Churn-Analysis-Excel-Dashboard-DAX/blob/main/picture1.png)](https://github.com/Jonathan-Analyst/Bank-Customer-Churn-Analysis-Excel-Dashboard-DAX/blob/main/picture1.png)
