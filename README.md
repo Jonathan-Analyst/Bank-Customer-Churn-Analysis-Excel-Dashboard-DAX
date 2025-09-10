@@ -22,7 +22,7 @@ This project analyzes customer churn for a retail bank using **Excel dashboards*
 - Do churned customers differ in terms of balance and credit score?
 - What role do customer complaints play in churn?
   ## DAX Functions
-  ## Core Measures
+  **Core Measures**
 ```DAX
 Total Customer = COUNTROWS('Customer_Churn_Records_26')
 
@@ -38,13 +38,13 @@ CALCULATE (
     'Customer_Churn_Records_26'[Exited] = 0
 )
 ```
-## Rates
+**Rates**
 ```DAX
 Churn Rate = DIVIDE([Churned Customers], [Total Customer], 0)
 
 Retention Rate = DIVIDE([Retained Customers], [Total Customer], 0)
 ```
-## Customer Attributes
+**Customer Attributes**
 ```DAX
 Avg Age = AVERAGE('Customer_Churn_Records_26'[Age])
 
@@ -52,7 +52,7 @@ Avg Tenure = AVERAGE('Customer_Churn_Records_26'[Tenure])
 
 Avg Satisfaction = AVERAGE('Customer_Churn_Records_26'[Satisfaction Score])
 ```
-## Balance Analysis
+**Balance Analysis**
 ```DAX
 Avg Balance (Retained) = 
 CALCULATE (
@@ -66,7 +66,7 @@ CALCULATE (
     'Customer_Churn_Records_26'[Exited] = 1
 )
 ```
-## Alternative Measure (if Exited = "Yes"/"No")
+**Alternative Measure (if Exited = "Yes"/"No")**
 ```DAX
 Churn Customers = 
 CALCULATE (
@@ -74,11 +74,6 @@ CALCULATE (
     'Customer_Churn_Records_26'[Exited(Customer)] = "Yes"
 )
 
-## Dashboard Screenshots
-Below are the dashboards built in Excel for this project:
-## Dashboard 1
-<a/ href="https://github.com/Jonathan-Analyst/Bank-Customer-Churn-Analysis-Excel-Dashboard-DAX/blob/main/picture1.png">Dashboard1</a>
-## Dashboard 2
 
 
 
